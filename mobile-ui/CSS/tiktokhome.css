@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.tiktokcontainer {
+  height: 896px;
+  width: 414px;
+  margin: 20px auto;
+  position: relative;
+  /* border: black solid 2px; */
+}
+
+#bgtiktok {
+  position: absolute;
+}
+
+header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 13px;
+}
+
+.rightstuff {
+  display: flex;
+  flex-direction: row;
+}
+
+.timenum {
+  padding-left: 26px;
+}
+
+.wifi {
+  padding-right: 5.55px;
+}
+
+.signal {
+  padding-right: 9.61px;
+}
+
+.battery {
+  padding-right: 14.5px;
+}
+
+.contentopts {
+  display: flex;
+  position: relative;
+}
+
+.contentopts {
+  justify-content: center;
+  padding-top: 55px;
+}
+
+.watchopt {
+  display: flex;
+  flex-direction: row;
+}
+
+.followline {
+  padding-left: 12.5px;
+  padding-right: 8.5px;
+}
+
+.sideopts {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-right: 12.5px;
+  bottom: 0px;
+  right: 0;
+  bottom: 95px;
+  justify-content: space-between;
+}
+
+.pfp,
+.heart,
+.comments,
+.music,
+.share {
+  display: flex;
+  /* justify-content: space-around; */
+  /* justify-content: space-around; */
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.footerbg {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+}
+
+.footeropts {
+  display: flex;
+  position: inherit;
+  right: 0;
+  left: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 70%;
+  text-align: center;
+}
+
+.icontext {
+  font-size: 10px;
+
+  /* padding-top: 32.17px; */
+}
+.homeicon,
+.searchicon,
+.addbutton,
+.inboxicon,
+.account {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 23.24px;
+  height: 20.92px;
+}
+
+/* .homeicon {
+  margin-left: 29.5px;
+} */
+.addbutton {
+  width: 43px;
+  height: 28px;
+  padding-top: 8.17px;
+}
+
+.iphoneslider {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-end;
+  right: 50%;
+  left: 50%;
+  bottom: 10px;
+}
