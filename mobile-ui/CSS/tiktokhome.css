@@ -1,5 +1,4 @@
 html {
-  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -8,26 +7,32 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   color: white;
-  min-height: 100vh;
-  margin: 0;
-  flex-direction: column;
+  /* margin: 20px; */
+  /* background-image: url("SVG/Backgroung.png"), ; */
+  justify-content: center;
+}
+.mobile {
+  width: 414px;
 }
 
 .tiktokcontainer {
   height: 896px;
-  width: 414px;
+  width: 100%;
   margin: 20px auto;
-  position: relative;
-  /* border: black solid 2px; */
-}
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/others/footerbg.png"),
+    url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/Background.png");
+  /* first is whats closest to user */
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: bottom;
 
-#bgtiktok {
-  position: absolute;
+  /* border: black solid 2px; */
 }
 
 header {
   display: flex;
-  position: relative;
+  /* position: relative; */
   justify-content: space-between;
   padding-top: 13px;
 }
@@ -55,7 +60,7 @@ header {
 
 .contentopts {
   display: flex;
-  position: relative;
+  /* position: relative; */
 }
 
 .contentopts {
@@ -75,14 +80,11 @@ header {
 
 .sideopts {
   display: flex;
-  position: absolute;
   flex-direction: column;
-  /* justify-content: center; */
   padding-right: 12.5px;
-  bottom: 0px;
-  right: 0;
   bottom: 95px;
-  justify-content: space-between;
+  font-size: 13px;
+  align-items: flex-end;
 }
 
 .pfp,
@@ -91,33 +93,72 @@ header {
 .music,
 .share {
   display: flex;
-  /* justify-content: space-around; */
-  /* justify-content: space-around; */
-}
-
-footer {
-  display: flex;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-}
-
-.footerbg {
-  position: absolute;
-  display: flex;
-  bottom: 0;
-}
-
-.footeropts {
-  display: flex;
-  position: inherit;
-  right: 0;
-  left: 0;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-  opacity: 70%;
+}
+
+.music {
+  padding-top: 30px;
+}
+
+.share {
+  padding-top: 25.5px;
+}
+
+.comments {
+  padding-top: 22.5px;
+}
+
+.heart {
+  padding-top: 34px;
+}
+
+.musicdisc {
+  display: flex;
+  position: absolute;
+  margin-top: 11px;
+}
+
+.info-container {
+  padding-left: 12px;
+}
+
+.infotxt {
+  font-size: 15px;
+}
+
+.datetxt {
+  font-size: 17px;
+  opacity: 80%;
+}
+
+.hashtags {
+  font-weight: 600;
+}
+
+.username {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+}
+
+.musicbar {
+  font-weight: 400;
+}
+
+.bottomopts {
+  position: relative;
+}
+
+.footeropts-container {
+  display: flex;
+  align-items: center;
+  padding-left: 29.5px;
+  padding-right: 32.8px;
   text-align: center;
+  align-items: flex-end;
+  position: fixed;
+  /* fix */
 }
 
 .icontext {
@@ -132,14 +173,28 @@ footer {
 .account {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 23.24px;
   height: 20.92px;
+  flex-direction: column;
 }
 
-/* .homeicon {
-  margin-left: 29.5px;
-} */
+.searchicon {
+  padding-left: 61.26px;
+}
+
+.addbutton {
+  padding-left: 51.06px;
+}
+
+.inboxicon {
+  padding-left: 51.5px;
+}
+
+.account {
+  padding-left: 63.5px;
+}
+
 .addbutton {
   width: 43px;
   height: 28px;
@@ -148,10 +203,10 @@ footer {
 
 .iphoneslider {
   display: flex;
-  position: absolute;
+  position: inherit;
   justify-content: center;
   align-items: flex-end;
-  right: 50%;
-  left: 50%;
+  /* right: 50%;
+  left: 50%; */
   bottom: 10px;
 }
