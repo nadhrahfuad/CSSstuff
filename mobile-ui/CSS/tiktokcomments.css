@@ -1,0 +1,259 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+  /* border: black 2px solid; */
+}
+
+section > .container {
+  max-width: 1140px;
+  /* display: flex; */
+}
+
+.tiktokcomments-container {
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/commentbox.png"),
+    url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/commentsbg.png"),
+    url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/guitarbg.png");
+  background-repeat: no-repeat;
+  background-position: bottom, center bottom 82.67px;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  line-height: 1px;
+}
+
+.timenum {
+  display: flex;
+  /* border: 2px solid green; */
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.contentopts {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 153px;
+   */
+}
+
+.following {
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 132px;
+  top: 57px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.followline {
+  width: 0px;
+  height: 11px;
+  position: absolute;
+  left: 214.5px;
+  top: 60.5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.foryou {
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 22px;
+  height: 22px;
+  left: 223px;
+  top: 55px;
+  display: flex;
+}
+
+.commentsheader {
+  display: flex;
+  align-self: center;
+  position: absolute;
+  margin-top: 254px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #161722;
+}
+
+.close {
+  display: flex;
+  width: 412px;
+  justify-content: flex-end;
+}
+
+.close > img {
+  display: flex;
+  height: 9.5px;
+  width: 9.5px;
+  position: absolute;
+  margin-top: 227.75px;
+  margin-right: 19.25px;
+}
+
+.commentssection-container {
+  display: flex;
+  height: 896px;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  margin-top: 261px;
+  padding-left: 12px;
+}
+
+.leftsidecomment {
+  display: flex;
+  flex-direction: row;
+  width: 402px;
+}
+
+.pfp {
+  display: flex;
+  flex-direction: row;
+  width: 32px;
+  height: 32px;
+}
+.commentinfo {
+  display: flex;
+  margin-left: 12px;
+  flex-direction: column;
+  color: #161722;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.username {
+  font-size: 13px;
+  line-height: 16px;
+  color: #86878b;
+  margin-bottom: 5px;
+}
+
+.commenttxt {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.time {
+  color: #86878b;
+  font-weight: 400;
+}
+
+.viewrepliesdrop1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 11px;
+}
+
+.replies1 {
+  font-size: 13px;
+  line-height: 16px;
+  color: #86878b;
+}
+i {
+  display: flex;
+  width: 9px;
+  height: 4.5px;
+  align-self: center;
+  background-color: red;
+}
+
+.likecomment {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #86878b;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 9px;
+}
+
+.heart {
+  width: 15.5px;
+  height: 13.5px;
+  margin-bottom: 3.5px;
+}
+
+.likenum {
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+.commentothers {
+  display: flex;
+  margin-top: 14px;
+}
+
+.addcomment-container {
+  display: flex;
+  width: 398px;
+  margin-bottom: 35px;
+  margin-left: 18px;
+  justify-content: space-between;
+  /* position: absolute; */
+  /* border: red 2px solid; */
+  align-self: center;
+}
+
+.addcomment-container > span {
+  color: #86878b;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 19px;
+  /* align-items: flex-start; */
+}
+
+.righticonscomment {
+  display: flex;
+  flex-direction: row;
+  width: 66.06px;
+  justify-content: space-between;
+  margin-top: 15.17px;
+  margin-right: 16.94px;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+  margin-bottom: 10px;
+}

@@ -16,9 +16,10 @@ body {
   width: 414px;
 }
 
-.tiktokcontainer {
+section > .tiktokcontainer {
   height: 896px;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 1140px;
   background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/others/footerbg.png"),
     url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/Background.png");
   /* first is whats closest to user */
@@ -189,10 +190,15 @@ header {
   padding-right: 9px;
 }
 
+.musicnotes {
+  border: white 2px solid;
+}
+
 .floatingtones {
   display: flex;
   justify-content: right;
   align-items: center;
+  /* border: white 2px solid; */
 }
 
 .singlenote {
@@ -201,13 +207,10 @@ header {
 }
 
 .double2note {
-  display: flex;
-  /* margin-right: 47.61px; */
   position: absolute;
-  border: white solid 2px;
-  height: 12.26px;
-  width: 15.36px;
-  left: 40.2px;
+  right: 63.39px;
+  top: 774.23px;
+  background-color: red;
 }
 
 .double2notefade {

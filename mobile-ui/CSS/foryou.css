@@ -1,0 +1,253 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+  border: black 2px solid;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.fycontainer {
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/others/footerbg.png"),
+    url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/guitarbg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .topbar,
+.righttopbar {
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 13px; }*/
+
+.topbar {
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+
+  line-height: 1px;
+}
+
+.timenum {
+  display: flex;
+  border: 2px solid green;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.contentopts {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+  /* 27.67 for you */
+}
+
+.following {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 19px;
+  /* margin-right: 12.5px; */
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 132px;
+  top: 57px;
+}
+
+.followline {
+  width: 0px;
+  height: 11px;
+  position: absolute;
+  left: 214.5px;
+  top: 60.5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.foryou {
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 22px;
+  /* margin-left: 8.5px; */
+  /* width: 62px; */
+  height: 22px;
+  left: 223px;
+  top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rightopts-container {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  /* why */
+  height: auto;
+  width: auto;
+  /* why */
+  margin-top: 433px;
+  margin-left: 360px;
+  border: yellow solid 2px;
+  margin-bottom: auto;
+}
+
+.pfp {
+  width: 47px;
+  height: 47px;
+  padding-bottom: 22.5px;
+  margin-right: 7px;
+}
+
+.optionssel > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+/* .optionssel > img {
+  object-fit: contain;
+} */
+.heart > img {
+  width: 35.5px;
+  /* height: 32.36px; */
+  margin-right: 12.5px;
+  align-self: flex-end;
+  /* margin-top: 34px; */
+  /* border-collapse: collapse; */
+}
+.heart > span {
+  margin-bottom: 22.5px;
+  margin-right: 9.5px;
+}
+
+.comments > img {
+  width: 35px;
+  /* height: 33.23px; */
+  align-self: flex-end;
+  margin-right: 13px;
+}
+
+.comments > span {
+  margin-bottom: 25.5px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 18.5px;
+}
+
+.share > img {
+  width: 34.08px;
+  /* height: 26.84px; */
+  align-self: flex-end;
+  margin-right: 13.67px;
+}
+
+.share > span {
+  align-self: flex-end;
+  margin-right: 13.5px;
+}
+
+/* .optionssel > span {
+  font-size: 13px;
+} */
+
+/* .rightopts-container > span {
+  display: flex;
+  flex-direction: column; */
+/* align-items: center;
+    font-size: 13px; */
+/* font-size: 13px;
+} */
+
+/* .righticon {
+  width: 35.5px;
+  height: 33.23px;
+  justify-content: space-evenly;
+} */
+
+/* .icontxt {
+} */
+
+/* .heart {
+  width: 35.5px;
+  height: 32.36px;
+  margin-top: 22.5px;
+}
+
+.comments {
+  width: 35px;
+  height: 33.23px;
+  margin-top: 22.5px;
+}
+.share {
+  width: 34.08px;
+  height: 26.84px;
+  margin-top: 25.5px;
+}
+
+
+.disc {
+  display: flex;
+  align-self: flex-end;
+  height: 49px;
+  width: 49px;
+  margin-right: 8px;
+} */
+
+.disc {
+  display: flex;
+  /* align-self: flex-end; */
+  height: 49px;
+  width: 49px;
+  margin-right: 8px;
+  border: black 2px solid;
+  align-self: flex-end;
+  position: absolute;
+  margin-top: 752px;
+  /* margin-top: 30px; */
+  /* position: absolute; */
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+}
+
+.btmbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
