@@ -1,0 +1,197 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #171717;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+  /* display: flex; */
+}
+
+.tiktokaccount-container {
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/tiktokaccbg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 896px;
+  display: flex;
+  border: black 2px solid;
+  flex-direction: column;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  line-height: 1px;
+}
+
+.timenum {
+  display: flex;
+  /* border: 2px solid green; */
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.vidgrid {
+  display: flex;
+  margin-top: 33.3px;
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 137px 137px 137px; */
+  grid-template-rows: repeat(3, 182px);
+  grid-template-columns: repeat(3, 137px);
+  row-gap: 1.66px;
+  column-gap: 1.33px;
+  position: relative;
+  /* grid-template-columns: auto auto auto; */
+}
+
+/* .griditem {
+  display: flex;
+} */
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  margin-left: 17.79px;
+  margin-right: 17.4px;
+}
+
+.topmusicinfo {
+  display: flex;
+  margin-top: 35px;
+  margin-left: 18px;
+}
+
+.musicbx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playicon {
+  display: flex;
+  position: absolute;
+}
+
+.musicinfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+.musictitle {
+  font-size: 20px;
+  line-height: 24px;
+  color: #161722;
+  margin-bottom: 8px;
+}
+
+.artistnm,
+.vidamnt {
+  font-size: 13px;
+  line-height: 16px;
+  color: #86878b;
+}
+
+.addtofav {
+  display: flex;
+  width: 152px;
+  height: 28px;
+  border: 1px solid #e3e3e4;
+  border-radius: 2px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.addtofav > img {
+  width: 10.5px;
+  height: 12.9px;
+}
+
+.fav {
+  font-size: 14px;
+  line-height: 17px;
+  color: #161722;
+  margin-left: 4.5px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 86px;
+  top: 800px;
+}
+
+.usesound {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+}
+
+.btntag {
+  /**/
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+  position: relative;
+  top: 81px;
+  /* margin-bottom: 10px; */
+}
+
+.vidicon {
+  display: flex;
+  flex-direction: row;
+  margin-right: 7.17px;
+  width: 22.49px;
+  height: 14.34px;
+}
+
+.btntxt {
+  display: flex;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: #ffffff;
+}
