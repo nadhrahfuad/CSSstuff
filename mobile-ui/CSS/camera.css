@@ -1,0 +1,193 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/camerabg.png");
+  background-repeat: no-repeat;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tiktokcamera-container {
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/qrbg.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  border-radius: 12px;
+  height: 756px;
+  display: flex;
+  top: 38px;
+  width: 414px;
+  flex-direction: column;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.timenum {
+  display: flex;
+  /* border: 2px solid green; */
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.topline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.closeicon {
+  margin-left: 20px;
+}
+
+.soundsheader {
+  height: 13.321px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
+}
+
+.doubletoneicon {
+  margin-right: 5.5px;
+}
+
+.rightsideopts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.opticon > img {
+  margin-bottom: 7.5px;
+}
+
+.opticon > span {
+  text-align: center;
+  font-size: 10px;
+}
+.opticon {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 13.5px;
+}
+
+.bottomopts {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 643px;
+  justify-content: space-evenly;
+}
+
+.bottomicons {
+  display: flex;
+  flex-direction: column;
+}
+
+.effectstxt,
+.uploadtxt {
+  font-size: 11px;
+  text-align: center;
+}
+
+.camconfig {
+  display: flex;
+  height: 102px;
+  position: relative;
+  align-items: center;
+  top: 33px;
+}
+
+.timeopts {
+  display: flex;
+  flex-direction: row;
+}
+
+.sixty {
+  margin-left: 139px;
+}
+.fifteen {
+  margin-bottom: 6px;
+}
+
+.templates {
+  margin-left: 30px;
+}
+
+.sixty,
+.fifteen,
+.templates {
+  font-size: 15px;
+  display: flex;
+}
+
+.sixty,
+.templates {
+  opacity: 0.6000000238418579;
+}
+
+.point {
+  border: solid white 2px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+
+.selected {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+  margin-top: 25px;
+}
