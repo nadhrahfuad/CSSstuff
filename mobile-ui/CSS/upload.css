@@ -1,0 +1,192 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.tiktokupload-container {
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/uploadbg.png");
+  background-repeat: no-repeat;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.time {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenum {
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.close {
+  display: flex;
+}
+
+.closeicon {
+  margin-left: 20px;
+  margin-top: 27px;
+  margin-bottom: 3px;
+}
+
+.headtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my2020 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.uploadtxt {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.6000000238418579;
+  letter-spacing: -0.6px;
+}
+
+.vid-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+
+  /* grid-template-columns: auto auto auto; */
+}
+
+.viditemcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vidnum {
+  margin-top: 18.5px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.6000000238418579;
+}
+
+.selectphotosbtn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 56.5px;
+}
+
+.btnback {
+  width: 270px;
+  height: 44px;
+  border-radius: 22px;
+  background: #ea4359;
+}
+
+.btntxt {
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+}
+
+.camconfig {
+  display: flex;
+  position: relative;
+  align-items: center;
+  top: 84px;
+  height: 29px;
+
+  /* 
+  border: yellow 2px solid; */
+}
+
+.timeopts {
+  display: flex;
+  flex-direction: row;
+}
+
+.sixty,
+.fifteen {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.6000000238418579;
+}
+
+.sixty {
+  margin-left: 63px;
+}
+
+.fifteen {
+  margin-left: 30px;
+}
+
+.point {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 6px;
+}
+
+.selected {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 30px;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+  margin-top: 107px;
+}
