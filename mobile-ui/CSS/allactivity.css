@@ -1,0 +1,136 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.tiktokallactivity-container {
+  background: white;
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/tabbarbg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+  border: black 2px solid;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.time {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenum {
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.headtitle {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.allactivity {
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+  margin-right: 6px;
+}
+
+.blackdrop {
+  margin-right: 119.5px;
+}
+
+.sendicon {
+  margin-right: 17px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 206.5px;
+}
+.unavailabletxt {
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 25.15px;
+}
+
+.notiftxt {
+  margin-top: 12px;
+  color: #7c7d83;
+  text-align: center;
+  font-size: 14px;
+}
+
+.tabbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 395.5px;
+}
+
+.tabbaricons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 43px;
+}
+
+.icontxt {
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #8a8b8f;
+  font-size: 10px;
+  margin-top: 4.58px;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+  margin-top: 23.5px;
+}
