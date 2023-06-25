@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.tiktokdirectmsg-container {
+  background: white;
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/dmbg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+  /* border: black 2px solid; */
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.time {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenum {
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.headtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.headelem {
+  display: flex;
+  width: 376px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 244px;
+}
+
+.msgtitle {
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.msgtxt {
+  color: #86878b;
+  text-align: center;
+  font-size: 14px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 422px;
+}
