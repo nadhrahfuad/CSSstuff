@@ -1,0 +1,295 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.user-container {
+  background: white;
+  background: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/toptabbg.png");
+  background-repeat: no-repeat;
+  height: 896px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: black 1px solid;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.time {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenum {
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.headtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  margin-top: 11px;
+}
+
+.headelem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 378.5px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blackdrop {
+  margin-left: 6px;
+}
+
+.accountsection {
+  display: flex;
+  height: 317px;
+  margin-top: 17px;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0px 0.33000001311302185px 0px 0px #d0d1d3;
+}
+
+.account {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.userhandle {
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 11px;
+}
+
+.userinfocount {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  /* border: red solid 2px; */
+}
+
+.following,
+.followers,
+.likes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 57px;
+  /* width: 201px; */
+}
+
+.count {
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.countlabel {
+  color: #86878b;
+  text-align: center;
+  font-size: 13px;
+}
+
+.profileopts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.editprofile {
+  display: flex;
+}
+
+.editprofilebtn {
+  display: flex;
+  width: 164px;
+  height: 44px;
+  border-radius: 2px;
+  border: 1px solid #e3e3e4;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.editbtnlabel {
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+}
+
+.saves {
+  display: flex;
+}
+
+.savesbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 2px;
+  border: 1px solid #e3e3e4;
+}
+
+.bio {
+  display: flex;
+  height: 57px;
+  justify-content: center;
+  align-items: center;
+}
+
+.biotxt {
+  display: flex;
+  color: #86878b;
+  text-align: center;
+  font-size: 14px;
+}
+
+.toptabicons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 12px;
+  height: 28px;
+}
+
+.postedvids {
+  display: grid;
+  grid-template-rows: repeat(2, 182px);
+  grid-template-columns: repeat(3, 137px);
+  row-gap: 1.66px;
+  column-gap: 1.33px;
+  position: relative;
+}
+
+.illustrationtxtbox {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  top: 704px;
+  left: 142.33px;
+}
+
+.txtboxicon {
+  display: flex;
+  position: absolute;
+}
+
+.illustrations {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtboxtxt {
+  display: flex;
+  position: relative;
+  width: 101px;
+  justify-content: center;
+  align-items: center;
+  height: 98.931px;
+  flex-direction: column;
+}
+
+.tap {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.newvid {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.tabbar {
+  display: flex;
+  background: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/tabbarbg.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2.67px;
+}
+
+.tabbaricons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 43px;
+  margin-top: 8.67px;
+}
+
+.icontxt {
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #8a8b8f;
+  font-size: 10px;
+  margin-top: 4.58px;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+  margin-top: 23.5px;
+}
