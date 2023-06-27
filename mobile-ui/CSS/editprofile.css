@@ -1,0 +1,241 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.tiktokeditprofile-container {
+  background: white;
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/dmbg.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+  border: black 2px solid;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.time {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenum {
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.headtitle {
+  display: flex;
+  justify-content: left;
+  margin-top: 11px;
+  margin-left: 18px;
+}
+
+.headelem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  display: flex;
+  margin-right: 136.79px;
+}
+
+.editprofile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+}
+
+.userpfp {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 44px;
+}
+
+.pfpic {
+  height: 90px;
+  width: 90px;
+}
+
+.photo,
+.vid {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+}
+
+.vidicon {
+  display: flex;
+  flex-direction: column;
+}
+
+.pfvidicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vidicon {
+  display: flex;
+  position: absolute;
+}
+
+.pfvidellipse {
+  display: flex;
+  border-radius: 90px;
+  background: #f1f1f2;
+  width: 90px;
+  height: 90px;
+}
+
+.pictxt,
+.vidtxt {
+  color: #161722;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 13px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+}
+
+.name-container,
+.username-container,
+.bio-container,
+.instagram-container,
+.youtube-container {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+}
+
+.instagram-container,
+.youtube-container,
+.bio-container {
+  align-items: center;
+}
+.username-container {
+  height: 104px;
+}
+
+.rightsideinfo-username {
+  display: flex;
+  text-align: right;
+}
+
+.usernametxt-container {
+  display: flex;
+  margin-bottom: 34px;
+  align-items: center;
+}
+
+.usernamehandle {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: right; */
+  align-items: flex-end;
+}
+
+.nametxt,
+.usernametxt,
+.tiktoklink,
+.biotxt,
+.igtxt,
+.youtubetxt {
+  color: #86878b;
+  font-size: 15px;
+  margin-right: 10.75px;
+}
+
+.name,
+.username,
+.bio,
+.instagram,
+.youtube {
+  color: #161722;
+  font-size: 15px;
+  margin-left: 16px;
+}
+
+.leftarrowicon {
+  margin-right: 19.46px;
+}
+
+.linkrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.tiktoklink {
+  margin-right: 7.75px;
+}
+.copyicon {
+  display: flex;
+  margin-right: 15.75px;
+}
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 382px;
+  height: 0.33px;
+  background: #d0d1d3;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 281px;
+}
