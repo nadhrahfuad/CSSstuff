@@ -19,7 +19,7 @@ section > .container {
   background-position: top;
   height: 896px;
   display: flex;
-  border: black 2px solid;
+  /* border: black 2px solid; */
   flex-direction: column;
 }
 
@@ -157,14 +157,13 @@ section > .container {
   align-items: center;
 }
 
-.btn {
-  display: flex;
-}
-
 .btntag {
-  /**/
   display: flex;
-  position: absolute;
+  width: 178px;
+  height: 52px;
+  border-radius: 26px;
+  background: #ea4359;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
   justify-content: center;
   align-items: center;
 }

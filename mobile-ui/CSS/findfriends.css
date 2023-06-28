@@ -1,0 +1,178 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.findfriends-container {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+  /* border: black 2px solid; */
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.time {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenum {
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.headtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.headelem {
+  display: flex;
+  width: 376px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.back {
+  display: flex;
+}
+
+.findfriendstxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  border-radius: 4px;
+  background: #f1f1f2;
+  width: 382px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.searchicon {
+  display: flex;
+  margin-left: 12px;
+  margin-right: 17.68px;
+}
+
+.searchtxt {
+  color: #86878b;
+  font-size: 15px;
+}
+
+.findopts {
+  display: flex;
+  flex-direction: column;
+}
+
+.invite-container,
+.contacts-container,
+.fb-container {
+  display: flex;
+  flex-direction: row;
+  height: 76px;
+  padding-left: 16px;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invitecircle {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  background: #ed7360;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactscircle {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  background: #67dda0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invitetxt,
+.findtxt,
+.fbtxt {
+  display: flex;
+  margin-left: 12px;
+  white-space: nowrap;
+}
+
+.right {
+  display: flex;
+  width: 100%;
+  margin-right: 19.46px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 507px;
+}
