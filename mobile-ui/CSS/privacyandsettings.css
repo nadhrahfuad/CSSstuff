@@ -1,0 +1,205 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+section.mobile {
+  width: 414px;
+}
+
+section > .container {
+  max-width: 1140px;
+}
+
+.privacyandsafety-container {
+  background: white;
+  background-image: url("/Users/nurfuad/Desktop/tiktok_ui/mobile-ui/SVG/dmbg.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 896px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.time {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenum {
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
+}
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
+}
+
+.signal {
+  margin-right: 5.55px;
+}
+
+.wifi {
+  margin-right: 9.61px;
+}
+
+.headtitle {
+  display: flex;
+  justify-content: left;
+  margin-top: 11px;
+  margin-left: 18px;
+}
+
+.headelem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  display: flex;
+  justify-content: space-around;
+}
+
+.privacyandsettings {
+  display: flex;
+  align-items: center;
+  color: #161722;
+  text-align: center;
+  font-size: 17px;
+  width: 156px;
+  margin-left: 100.79px;
+}
+
+.options {
+  display: flex;
+  margin-top: 11.67px;
+  flex-direction: column;
+}
+
+.accounttxt,
+.generaltxt {
+  display: flex;
+  margin-bottom: 4px;
+  color: #86878b;
+  height: 40px;
+  align-items: flex-end;
+  margin-left: 16px;
+}
+
+.supporttxt {
+  display: flex;
+  margin-bottom: 4px;
+  color: #86878b;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.manageaccount,
+.privacyandsafety,
+.contentprefs,
+.balance,
+.share,
+.tikcode,
+.pushnotifs,
+.language,
+.digitalwellbeing,
+.accessibility,
+.datasaver,
+.report {
+  display: flex;
+  height: 52px;
+  align-items: center;
+  margin-left: 19px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  white-space: nowrap;
+}
+
+.manageaccounttxt,
+.privacyandsafetytxt,
+.contentprefstxt,
+.balancetxt,
+.sharetxt,
+.tikcodetxt,
+.notifstxt,
+.langtxt,
+.dwtxt,
+.accessibilitytxt,
+.datasavertxt,
+.reporttxt,
+.helpcentertxt {
+  display: flex;
+
+  /* width: 100%; */
+  margin-left: 15px;
+}
+
+.helpcenter {
+  display: flex;
+  height: 15px;
+  align-items: center;
+  margin-left: 19px;
+  margin-top: 11px;
+}
+
+.right {
+  display: flex;
+  width: 100%;
+  margin-right: 20.75px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.leftarrowicon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16px;
+}
+
+.separatorabovesupport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 382px;
+  height: 0.33px;
+  background: #d0d1d3;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
