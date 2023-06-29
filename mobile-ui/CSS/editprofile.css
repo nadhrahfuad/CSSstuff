@@ -21,7 +21,7 @@ section > .container {
   height: 896px;
   display: flex;
   flex-direction: column;
-  border: black 2px solid;
+  /* border: black 2px solid; */
 }
 
 .topbar {
