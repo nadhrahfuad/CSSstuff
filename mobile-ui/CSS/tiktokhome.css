@@ -1,22 +1,18 @@
-html {
-  padding: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
   margin: 0;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  color: white;
-  /* margin: 20px; */
-  /* background-image: url("SVG/Backgroung.png"), ; */
-  justify-content: center;
-  height: 896px;
-}
-.mobile {
+section.mobile {
   width: 414px;
 }
 
-section > .tiktokcontainer {
+section > .container {
+  max-width: 1140px;
+}
+
+.tiktokhome-container {
   height: 896px;
   /* width: 100%; */
   max-width: 1140px;
@@ -29,259 +25,208 @@ section > .tiktokcontainer {
   background-position: bottom;
 }
 
-header {
+.topbar {
+  /* border: 2px solid white; */
   display: flex;
-  /* position: relative; */
   justify-content: space-between;
-  padding-top: 13px;
-  bottom: 0px;
-  padding-bottom: 0px;
+  height: 44px;
 }
 
-.rightstuff {
+.time {
+  width: 60px;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .timenum {
-  padding-left: 26px;
-  height: 18px;
-  /* line-height: 18px; */
+  display: flex;
+  margin-left: 23.18px;
+  line-height: 17.9px;
+  margin-top: 13px;
 }
-
-.wifi {
-  padding-right: 5.55px;
-  height: 10.97px;
+.righttopbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+  margin-right: 16px;
+  height: 10.5px;
+  margin-top: 17px;
 }
 
 .signal {
-  padding-right: 9.61px;
-  height: 10.67px;
+  margin-right: 5.55px;
 }
 
-.battery {
-  padding-right: 14.5px;
-  height: 10.5px;
+.wifi {
+  margin-right: 9.61px;
 }
 
 .contentopts {
   display: flex;
-  /* position: relative; */
-}
-
-.contentopts {
+  height: 22px;
   justify-content: center;
-  padding-top: 26px;
+  align-items: center;
 }
 
 .watchopt {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 
-.following,
-.foryou {
-  height: 19px;
+.following {
+  display: flex;
+  margin-right: 12.5px;
+  color: #fff;
+  text-align: center;
   font-size: 16px;
 }
 
+.foryou {
+  display: flex;
+  margin-left: 8.5px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 18px;
+}
+
 .followline {
-  padding-left: 12.5px;
-  padding-right: 8.5px;
-  width: 1px;
   height: 11px;
-  color: rgba(255, 255, 255, 0.2);
-  padding-top: 5.17px;
 }
 
 .sideopts {
   display: flex;
   flex-direction: column;
-  padding-right: 12.5px;
-  font-size: 13px;
-  align-items: flex-end;
-  margin-top: 339px;
-  width: 47px;
-  margin-left: 353px;
-  /* margin-bottom: 00px; */
+  margin-top: 389px;
+  align-items: center;
+  /* justify-content: right; */
 }
 
 .pfp,
 .heart,
 .comments,
-.music,
-.share {
+.share,
+.music {
   display: flex;
   flex-direction: column;
+  width: 49px;
   align-items: center;
+  margin-left: 357px;
 }
 
-.music {
-  padding-top: 30px;
-}
-
-.share {
-  padding-top: 25.5px;
-}
-
-.comments {
-  padding-top: 22.5px;
+.pfp {
+  display: flex;
+  margin-bottom: 34px;
+  width: 47px;
+  height: 47px;
 }
 
 .heart {
-  padding-top: 34px;
+  display: flex;
+  margin-bottom: 38.5px;
+  width: 35.5px;
+  height: 32.359px;
 }
 
-.musicdisc {
+.comments {
   display: flex;
-  position: absolute;
-  margin-top: 11px;
+  margin-bottom: 41.5px;
+  width: 35px;
+  height: 33.226px;
+}
+
+.share {
+  display: flex;
+  margin-bottom: 46px;
+  width: 34.079px;
+  height: 26.841px;
 }
 
 .sideoptstext {
-  height: 16px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
 }
 
-.info-container {
-  margin-left: 12px;
+.music {
+  height: 49px;
+  width: 49px;
+  display: flex;
+  justify-content: center;
+}
+
+.musicdiscinner {
   position: absolute;
+  display: flex;
+}
+
+.floatingtones {
+  display: flex;
+  position: absolute;
+  margin-top: 732.23px;
+  margin-left: 301.21px;
+}
+
+.userinfo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
   margin-top: 727px;
-  margin-right: 138px;
-}
-
-.infotxt {
-  font-size: 15px;
-  line-height: 19.5px;
-}
-
-.datetxt {
-  font-size: 17px;
-  opacity: 80%;
-}
-
-.hashtags {
-  font-weight: 600;
+  margin-left: 12px;
 }
 
 .username {
   display: flex;
   flex-direction: row;
-  font-weight: 600;
+  margin-bottom: 8px;
 }
 
-.musicbar {
-  width: 230px;
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.9) 5.21%,
-    rgba(255, 255, 255, 0.9) 95.83%,
-    rgba(255, 255, 255, 0) 100%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.datetxt,
+.songinfotxt {
+  color: #ffffff99;
+}
+
+.hashtags {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7px;
 }
 
 .musicicon {
-  width: 12px;
-  height: 12px;
-  padding-right: 9px;
-}
-
-.musicnotes {
-  border: white 2px solid;
-}
-
-.floatingtones {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  /* border: white 2px solid; */
-}
-
-.singlenote {
-  display: flex;
-  margin-right: 47.61px;
-}
-
-.double2note {
-  position: absolute;
-  right: 63.39px;
-  top: 774.23px;
-  background-color: red;
-}
-
-.double2notefade {
-  display: flex;
-  border: white solid 2px;
-  right: 81.27px;
-  position: relative;
-  bottom: 58.68px;
-  height: 18.94px;
-  width: 14.51px;
-}
-
-.bottomopts {
-  position: relative;
-  margin-top: 17px;
+  margin-right: 9px;
 }
 
 .footeropts-container {
   display: flex;
-  align-items: center;
-  text-align: center;
-  align-items: flex-end;
-  padding-bottom: 38.5px;
-  padding-left: 29.5px;
-}
-
-.icontext {
-  font-size: 10px;
+  flex-direction: row;
 }
 
 .homeicon,
 .searchicon,
 .inboxicon,
-.account {
+.accounticon,
+.addbuttonicon {
   display: flex;
-  align-items: center;
-  flex-direction: row;
-  width: 23.24px;
-  height: 20.92px;
   flex-direction: column;
-  margin-top: 17px;
-}
-
-.searchicon {
-  padding-left: 61.26px;
-  padding-right: 133px;
-}
-
-.addbutton-container {
-  display: flex;
-  height: 28px;
+  width: 100%;
   align-items: center;
-  /* margin-top: 18.5px; */
-  position: absolute;
+  justify-content: space-around;
+  margin-top: 16px;
 }
 
-.account {
-  padding-left: 63.5px;
+.icontext {
+  color: #fff;
+  font-size: 10px;
+  line-height: normal;
+  letter-spacing: 0.15px;
 }
 
-.addbutton {
-  width: 43px;
-  height: 28px;
-  /* padding-top: 73.5px; */
-  padding-bottom: 31.5px;
-  position: absolute;
-}
-
-.iphoneslider,
-.addbutton-container {
+.slider {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  margin-top: 23.5px;
 }
