@@ -185,8 +185,7 @@ i {
   display: flex;
   width: 9px;
   height: 4.5px;
-  align-self: center;
-  background-color: red;
+  color: #86878b;
 }
 
 .likecomment {
